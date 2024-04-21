@@ -17,6 +17,9 @@ body{
 .logo1{
     position: relative;
     background-color: #4fafaf;
+    max-width: 50%;
+    max-height: 50%;
+    
 }
 
 input {
@@ -37,9 +40,9 @@ input {
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Alinha os itens à esquerda */
-        width: 150%; /* Define a largura do contêiner */
+        width: 60%; /* Define a largura do contêiner */
         z-index: -1;
-        height: 87%;
+        height: 86%;
         padding: 20px; /* Espaçamento interno para não tocar nas bordas */ 
         background-color: #fafafa;
         top: 0%;
@@ -52,7 +55,7 @@ input {
 .acesso{
     position: relative;
     float: right;
-    right: -45%;
+    right: -25%;
     color: #4fafaf;
     border-bottom:#4fafaf solid 2px;
     margin-top: 0%;
@@ -64,15 +67,15 @@ input {
 .email{
  position: relative;
  float: right;
- right: -45%
-
+ right: -25%;
+ width: 65%;
  
 }
 
 .fa-user{
     position: relative;
     float: right;
-    right: -40%;
+    right: -20%;
     bottom: 7%;    
     color: #4fafaf;
 }
@@ -80,14 +83,15 @@ input {
 .password{
     position: relative;
     float: right;
-    right: -45%;
+    right: -25%;
     margin-top: 10%;
+    width: 65%;
    }
 
    .fa-lock{
     position: relative;
     float: right;
-    right: -40%;
+    right: -20%;
     bottom: 7%;    
     color: #4fafaf;
    }
@@ -101,7 +105,7 @@ input {
    .Esqueci{
     position: relative;
     float: right;
-    right: -55%;
+    right: -25%;
     margin: 0%;
     color: #4fafaf;
     border-bottom:#4fafaf solid 1px;
@@ -113,10 +117,10 @@ input {
    .Entrar{
     position: relative;
     float: right;
-    width: 60%;
+    width: 85%;
     height: 10%;
-    right: -40%;
-    margin-top: 5%;
+    right: -15%;
+    margin-top: 10%;
 
     cursor: pointer;
     outline: 0;
