@@ -161,7 +161,7 @@ input {
         background-color: transparent;
         max-width: 80%;
         left: 5%;
-        
+        size-adjust: 6dvw;
         
     }
 
@@ -176,9 +176,10 @@ input {
         height: 100%;
         left: 0%;
         background-color: #fafafa;
-        top: 100%;
+        top: 80%;
         border-radius: 5%;
         box-shadow: 10px 0px 10px #1f4f4f ;
+        
     
 }
 .acesso{
