@@ -9,10 +9,10 @@ h1{
 }
 
 .hud_P{
-    float: right;
+    float: inline-end;
     font-size: larger;
     margin: 3%;
-    margin-top: 2.8%;
+    display: flex;
 }
 p{
     color: #4fafaf;
@@ -46,18 +46,20 @@ a{
    
 }
 .Sobre{
-    width: 394px;
+    width: 80vw;
     line-height: 1.5;
     margin-left: 20%;
     font-size: larger;
+    position: static;
 }
 
 .ImagemSobre{
     float: right;
-    margin-right: 5%;
-    
+    margin-right: 20%;
+    margin-top: 5%;
     border-radius: 8%;
-    scale: 0.9;
+    width: 25rem;
+    
 }
 input {
 	appearance: none;
@@ -77,12 +79,18 @@ input {
     color: #4fafaf;
     background-color: #4fafaf;
     top: 0%;
+    width: 100%;
 }
 
 .hud{
     color: #4fafaf;
     background-color: #fafafa;
     height: 6rem;
+    flex-direction: row;
+    display: table;
+    clear: both;
+    width: 100%;
+    padding: 0.01em 16px
     
         
 }
@@ -332,6 +340,15 @@ input {
     cursor: pointer;
     font-size: 4dvw;
    }
-
+   .ImagemSobre{
+  float: left;
+  width: 95vw;
+  margin-left: 3%;
+}
+.Saber{
+    font-size: larger;
+    margin-bottom: 5%;
+    width: 55%;
+   }
 
    }
