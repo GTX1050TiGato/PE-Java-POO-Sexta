@@ -227,6 +227,14 @@ input {
    button:hover{
     scale: 1.05;
    }
+   
+
+
+
+   .h1_ser{
+    margin-left: 20%;
+    margin-top: 5%;
+   }
 
 
 
@@ -350,5 +358,20 @@ input {
     margin-bottom: 5%;
     width: 55%;
    }
+
+   .h1_ser{
+    margin-left: 10%;
+    margin-top: 5%;
+   }
+
+
+
+   .Sobre{
+    width: 80vw;
+    line-height: 1.5;
+    margin-left: 10%;
+    font-size: larger;
+    position: static;
+}
 
    }
