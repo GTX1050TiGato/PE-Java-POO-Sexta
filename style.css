@@ -343,6 +343,7 @@ input {
         margin: 0%;
         padding: 0%;
         line-height: 0.9;
+        padding-top: 100%;
         
     }
     .tranquilidade{
@@ -353,7 +354,7 @@ input {
         margin-right: -50%;
         font-size: 20px;
         text-align: center;
-        
+        columns: 1;
         margin-top: -40%;
         border-bottom: 5px solid white;
         
