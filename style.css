@@ -2,11 +2,14 @@ body{
     background-color: #d5e2e2;
     margin: 0%;
     padding: 0%;
+    list-style-image: url(Rectangle5.png);
+    
 }
 h1{
     color: #4fafaf;
     
 }
+
 .divqualidades{
     
     height: 50vh;
@@ -17,12 +20,16 @@ h1{
     display: inline-block;
     
 }
+li{
+    height: 1%;
+    margin-left: 5%
+}
 .qualidades{
     list-style-image: url(Rectangle5.png);
     color: #272266;
-    position: absolute;
-    margin-right: 20%;
-    width: 25%;
+    position: relative;
+    margin-right: auto;
+    width: auto;
     font-size: 3.5rem;
     
     margin-top: 8%;
@@ -108,7 +115,7 @@ a{
     
 }
 .detetizador{
-    margin-left: 20%;
+    margin-left: 10%;
     width: 30rem;
     margin-bottom: 0%;
     
@@ -310,13 +317,55 @@ input {
     background-color: #4fafaf;
    
     width: 100%;
-    height: 58vh;
-    position: absolute;
+    height: auto;
+    
 }
 
+    .Serviços{
+        margin-left: 5%;
+    }
+
+
+    .greenSquare p{
+        color: #fafafa;
+        text-align: center;
+        font-size: 1rem;
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+    .greenSquare h1{
+        color: #fafafa;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .greenSquare{
+        width: 17.6vw;
+        height: 35.9vh;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 5%;
+        background-color: #4fafaf;
+        float: inline-start;
+        margin-top: 5%;
+        border-radius: 5%;
+        
+    }
 
 
    @media screen  and (max-width: 768px) {
+
+    .greenSquare{
+        width: 70.6vw;
+        margin-left: 15%;
+    }
+
+    .Serviços{
+        margin-left: 25%;
+    }
+
+
 
 
     .detetizador{
@@ -329,10 +378,10 @@ input {
     .green2{
         color: #4fafaf;
         background-color: #4fafaf;
-       overflow: auto;
+        overflow: auto;
         width: 100%;
-        height: 100%;
-        position: absolute;
+        height: 110vh;
+        
     }
 
 
@@ -367,9 +416,9 @@ input {
         height: 50vh;
         width: 50%;
         float: left;
-        
+        position: relative;
         box-sizing: content-box;
-        position: absolute;
+        
         
     }
 
