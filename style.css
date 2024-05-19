@@ -290,7 +290,7 @@ button:hover {
   overflow: visible;
   width: 100%;
   height: auto;
-  
+  display: inline-block;
 }
 
 .Serviços {
@@ -330,8 +330,8 @@ button:hover {
     margin-left: 15%;
   }
   .sobreserviço{
-  width: 100%;
-  margin-left: 35vw !important;
+  width: 90% !important;
+ 
 
   
   }
@@ -348,25 +348,18 @@ button:hover {
     content: normal;
   }
   #converse{
-    display: flex;
-    margin-left: 15vw !important;
-    text-align: center;
-    float: inline-start;
-    width: 70vw !important;
     
-  }
-  #h1servi{
-    margin-left: 25vw !important;
+    margin-left: 10% !important;
+    width: 80% !important;
+    font-size: 1.5rem !important;
     text-align: center;
+    width: 100vw  ;
   }
 
   #sobres{
     position: flex;
     
     
-  }
-  #teo{
-    margin-right: 10vw !important;
   }
   .green2 {
     color: #4fafaf;
@@ -383,20 +376,30 @@ button:hover {
     margin: 0%;
     padding: 0%;
     line-height: 0.9;
-    padding-top: 10%;
+    padding-top: 30%;
 
+  }
+  #h1servi{
+    margin-left: 25% !important;
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  #teo{
+    width: 100% !important;
+    margin: 0% !important;
   }
   .tranquilidade {
     color: #fafafa;
     width: 50vw;
     height: 7rem;
     float: left;
-    margin-left: 25vw !important;
+    margin-left: 25% !important;
     font-size: 20px;
     text-align: center;
     columns: 1;
     margin-top: -10%;
     border-bottom: 5px solid white;
+  
   }
 
   .divqualidades {
