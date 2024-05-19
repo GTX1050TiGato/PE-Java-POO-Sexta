@@ -462,7 +462,8 @@ button:hover {
 
   .conteiner_senha {
     position: relative;
-
+    top: 15%;
+    margin-left: 10%;
     display: inline-flex;
     vertical-align: middle;
   }
