@@ -8,6 +8,10 @@ h1 {
   color: #4fafaf;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .divqualidades {
   height: 30vh;
   width: 20%;
@@ -75,6 +79,22 @@ p {
   width: 8rem;
   margin-top: -1%;
   margin-left: 3%;
+}
+
+#cell::before{
+  content: url(phoneIcon.png);
+}
+
+#zap::before{
+  content: url(wppIcon.png);
+}
+
+#location::before{
+  content: url(map-pinIcon.png);
+}
+
+#map:hover{
+  scale: 1.1;
 }
 
 .logo1 {
@@ -325,6 +345,34 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+  #gruporo{
+    float: inline-start !important;
+    display: inline-block !important;
+    margin-left: 30% !important;
+    scale: 1 !important;
+  }
+
+  #map{
+    margin-left: 10% !important;
+    width: 80% !important;
+  }
+  #location{
+    margin-left: 30% !important;
+  }
+
+  #cell{
+    margin-left: 30% !important;
+    padding-top: 10% !important;
+  }
+
+  #zap{
+    margin-left: 30% !important;
+    padding-top: 10% !important;
+    margin-bottom: 10% !important;
+  }
+
+
   .greenSquare {
     width: 70.6vw;
     margin-left: 15%;

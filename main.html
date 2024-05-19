@@ -18,18 +18,36 @@
 
       <img src="logo.png" alt="" class="logoHud" />
 
-      <p class="hud_P">Contato</p>
+      <p
+        class="hud_P"
+        onclick="window.location.href='#map'"
+        style="cursor: pointer"
+      >
+        Contato
+      </p>
 
-      <p class="hud_P">Serviços</p>
+      <p
+        class="hud_P"
+        onclick="window.location.href='#serv'"
+        style="cursor: pointer"
+      >
+        Serviços
+      </p>
 
-      <p class="hud_P">Quem somos?</p>
+      <p
+        class="hud_P"
+        onclick="window.location.href='#sobre'"
+        style="cursor: pointer"
+      >
+        Quem somos?
+      </p>
     </header>
     <div class="green" style="height: 10rem"></div>
 
     <img src="Imagem sobre.png" alt="" class="ImagemSobre" />
     <h1 class="h1_ser">Sobre a Sercontroll</h1>
 
-    <p class="Sobre" style="color: #4e4e4e">
+    <p class="Sobre" id="sobre" style="color: #4e4e4e">
       Sobre a Sercontroll... Pautados pelo profissionalismo no compromisso de
       levar saúde e bem-estar para clientes residenciais e empresariais, logo
       nos primeiros anos de atividade, conquistamos a liderança no mercado de
@@ -70,7 +88,7 @@
     </div>
 
     <br />
-    <h1 class="Serviços">Serviços</h1>
+    <h1 class="Serviços" id="serv">Serviços</h1>
 
     <div class="greenSquare">
       <h1>Controle de pragas</h1>
@@ -115,14 +133,7 @@
       <p
         class="whitetext"
         id="converse"
-        style="
-          width: 50%;
-          font-size: 2rem;
-          margin: 5%;
-          padding-top: 1rem;
-          
-      
-        "
+        style="width: 50%; font-size: 2rem; margin: 5%; padding-top: 1rem"
       >
         Converse com nossos consultores e saiba como proteger a sua casa e a sua
         empresa, levando mais saúde e bem-estar para sua família e para seus
@@ -138,10 +149,74 @@
           font-size: x-large;
         "
         class="sobreserviço"
-        
       >
         Quero saber sobre os serviços!
       </button>
+    </div>
+
+    <div class="green2" style="background-color: #fafafa; height: 20rem">
+      <img
+        src="gruporodapé.png"
+        alt=""
+        style="height: 10rem; margin: 3%; float: left"
+        id="gruporo"
+      />
+      <img
+        src="Mapimg.png"
+        alt=""
+        style="
+          margin: 3%;
+          float: left;
+          width: 30%;
+          cursor: pointer;
+          transition: 1s;
+        "
+        id="map"
+        onclick="window.location.href='https:www.google.com/maps/place/Sercontroll+Controle+de+Pragas+e+Extintores/@-1.3611031,-48.401446,17z/data=!3m1!4b1!4m6!3m5!1s0x92a45fbb96607edf:0xcc25f55c58bef8cd!8m2!3d-1.3611031!4d-48.3965751!16s%2Fg%2F11gj277f4n?entry=ttu'"
+      />
+      <p
+        class="whitetext"
+        id="location"
+        style="
+          color: black;
+          width: 50%;
+          float: rigt;
+          margin-left: 40%;
+          margin-top: 3%;
+          line-height: 1.5;
+        "
+      >
+        Cidade Nova 5, Tv. We-31 (Cj Cidade Nova V), 912, Ananindeua - PA,
+        67133-130
+      </p>
+      <p
+        class="whitetext"
+        id="cell"
+        style="
+          color: black;
+          width: 50%;
+          float: rigt;
+          margin-left: 40%;
+          margin-top: 3%;
+          line-height: 1.5;
+        "
+      >
+        (91) 98399-6911
+      </p>
+      <p
+        class="whitetext"
+        id="zap"
+        style="
+          color: black;
+          width: 50%;
+          float: rigt;
+          margin-left: 40%;
+          margin-top: 2%;
+          line-height: 1.5;
+        "
+      >
+        (91) 98399-6911
+      </p>
     </div>
   </body>
 </html>
